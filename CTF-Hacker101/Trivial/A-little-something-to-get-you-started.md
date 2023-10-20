@@ -13,7 +13,7 @@ $$^FLAG^37ae568362f974017fa575f08cd215044cd6bb395c3f5e5e293ee5324ba6769c$FLAG$
 ```
 ## Let's Begin
 
-![](/Trivial/Images/Image1.png)
+![](./Images/Image1.png)
 
 > [!Note]
 >  If you are stuck and confuse, you can use Hints. However let's try to do our CTF without using them, for those who are brand new or just starting out CTF for the first time. This would be hard if you are not bit techie sort of speaking. 
@@ -22,8 +22,8 @@ $$^FLAG^37ae568362f974017fa575f08cd215044cd6bb395c3f5e5e293ee5324ba6769c$FLAG$
 1. Proceed to the challenge by pressing 'Go'.
 2. On this site all you see if a blank screen and a url.
    
-![](/Trivial/Images/Image1-2.png)
-You will notive the url link is weird for the first time. However this is nothing unique.
+![](./Images/Image1-2.png)
+You will notice the url link is weird for the first time. However this is nothing unique.
 It is a generated unique number follow by the .ctf.hacker101.com. So that when you submit
 your flag it is credited to your account.
 
@@ -31,7 +31,8 @@ your flag it is credited to your account.
    <kbd>CTRl+Shift+C</kbd>
 4. You will open the **Elements** or **Source** of the website code.
 5. Go ahead and resize your inspect panel, then expand all the html tags under the element tab.
-![](/Trivial/Images/Image1-3.png)
+
+![](./Images/Image1-3.png)
 Should look something like this.
 
 6. At this point you will believe that you are stuck and there is nothing else to see. You probably click around and cannot find anything that resemble an answer to you.
