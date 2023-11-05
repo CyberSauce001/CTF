@@ -11,7 +11,7 @@ Task: Hunt down all the flags, example of flag given by CTF-Hacker101. There are
 ```css
 $$^FLAG^37ae568362f974017fa575f08cd215044cd6bb395c3f5e5e293ee5324ba6769c$FLAG$
 ```
-![](/Easy/Images/Microv1-image1.png)
+![](/CTF-Hacker101/Easy/Images/Microv1-image1.png)
 
 ## Let's Begin
 
@@ -19,7 +19,7 @@ $$^FLAG^37ae568362f974017fa575f08cd215044cd6bb395c3f5e5e293ee5324ba6769c$FLAG$
 1. We begin this CTF with two bulletpoint links and one 'Create the page' link. So where do we start?
    We start by clicking around and inspecting the page source of course.
    
-![](/Easy/Images/Microv1-image2.png)
+![](/CTF-Hacker101/Easy/Images/Microv1-image2.png)
 
 3. Let us click on the first link we see 'Testing'. We do not see anything out of the ordinary. From the page itself.
    Inspect source does not detect anything weird. So we will click on 'Edit this page' to see what else is there.
@@ -31,26 +31,26 @@ $$^FLAG^37ae568362f974017fa575f08cd215044cd6bb395c3f5e5e293ee5324ba6769c$FLAG$
 <script>alert(window.orgin)</script>
 <script>alert(1)</script>
 ```
-![](/Easy/Images/Microv1-image3.png)
+![](/CTF-Hacker101/Easy/Images/Microv1-image3.png)
 
 5. Enter the script into the Title or Body and submit. Now you can go back home or refresh the page.
    You should see the alert pop up with the flag. Go ahead, copy, and submit it.
    
-![](/Easy/Images/Microv1-image4.png)
+![](/CTF-Hacker101/Easy/Images/Microv1-image4.png)
    
 <Code>Flag 1/4</Code>
 
 6. Hey! What is this in the 'Elements' I see. In the url it say I am on page 11. Expanding the other  tags.
    I can see there is page 1 & 2. Super weird.
 
-![](/Easy/Images/Microv1-image5.png)
+![](/CTF-Hacker101/Easy/Images/Microv1-image5.png)
    
 7. We will start by checking other pages by replacing the numbers. Moving downwards and get to
     page 4 it says 'Forbidden', while the others were 'Not Found' .
 9. How do we view this part, we will add to the URL edit/ in front of page/. So should be /page/edit/4 at the end of the URL.
 10. Once you press enter, you will be reveal another flag on this page. Go ahead and submit the flag.
 
-![](/Easy/Images/Microv1-image6.png)
+![](/CTF-Hacker101/Easy/Images/Microv1-image6.png)
 
 <Code>Flag 2/4</Code>
 
@@ -58,7 +58,7 @@ $$^FLAG^37ae568362f974017fa575f08cd215044cd6bb395c3f5e5e293ee5324ba6769c$FLAG$
 12. Click on any of the links on the page. Then put a quotation '`' next to the page number. Once you press enter, another flag appear.
     Go ahead and submit that.
 
-![](/Easy/Images/Microv1-image7.png)
+![](/CTF-Hacker101/Easy/Images/Microv1-image7.png)
 
 <Code>Flag 3/4</Code>
 
@@ -75,7 +75,7 @@ $$^FLAG^37ae568362f974017fa575f08cd215044cd6bb395c3f5e5e293ee5324ba6769c$FLAG$
     Inspect the page source. Expand the tags, and you will see the flag populate on the 'Elements'. Submit that and we completed the 
     challenge.
 
-![](/Easy/Images/Microv1-image8.png)
+![](/CTF-Hacker101/Easy/Images/Microv1-image8.png)
 
 <Code>Flag 4/4</Code>
 
