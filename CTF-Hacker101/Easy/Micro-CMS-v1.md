@@ -65,7 +65,7 @@ $$^FLAG^37ae568362f974017fa575f08cd215044cd6bb395c3f5e5e293ee5324ba6769c$FLAG$
 13. Now we need to find the last flag. This one, I had to ask for help. I reach out to a random discord member who had done this. They pointed out that I need to look into something called [**XSS Filter Evasion**](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
 
 14. There is a lot going on but using the previous script we did, we will look for one that provide us alerts. Which I done for you.
-    You have to option. Either one works, but I prefer the later, you will see why when you test it out.
+    You have to option. Either one works, but I prefer the latter, you will see why when you test it out.
 ```html
 <IMG SRC= onmouseover="alert('xxs')">
 <IMG onmouseover="alert('xxs')">
